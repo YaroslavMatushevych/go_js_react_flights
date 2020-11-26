@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/go_js_react_flights/static/css/main.67b23392.chunk.css",
+    "main.js": "/go_js_react_flights/static/js/main.40c23b87.chunk.js",
+    "main.js.map": "/go_js_react_flights/static/js/main.40c23b87.chunk.js.map",
+    "runtime-main.js": "/go_js_react_flights/static/js/runtime-main.9dcebdba.js",
+    "runtime-main.js.map": "/go_js_react_flights/static/js/runtime-main.9dcebdba.js.map",
+    "static/js/2.c7c772df.chunk.js": "/go_js_react_flights/static/js/2.c7c772df.chunk.js",
+    "static/js/2.c7c772df.chunk.js.map": "/go_js_react_flights/static/js/2.c7c772df.chunk.js.map",
+    "static/js/3.20fbe8b5.chunk.js": "/go_js_react_flights/static/js/3.20fbe8b5.chunk.js",
+    "static/js/3.20fbe8b5.chunk.js.map": "/go_js_react_flights/static/js/3.20fbe8b5.chunk.js.map",
+    "index.html": "/go_js_react_flights/index.html",
+    "static/css/main.67b23392.chunk.css.map": "/go_js_react_flights/static/css/main.67b23392.chunk.css.map",
+    "static/js/2.c7c772df.chunk.js.LICENSE.txt": "/go_js_react_flights/static/js/2.c7c772df.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9dcebdba.js",
+    "static/js/2.c7c772df.chunk.js",
+    "static/css/main.67b23392.chunk.css",
+    "static/js/main.40c23b87.chunk.js"
+  ]
+}
