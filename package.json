@@ -1,6 +1,6 @@
 {
-  "name": "react_flights",
-  "homepage": "http://yaroslavmatushevych.github.io/go_js_react_flights",
+  "name": "go_js_react_flights",
+  "homepage": "https://dinamickapubliccode.gitlab.io/go_js_react_flights/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
