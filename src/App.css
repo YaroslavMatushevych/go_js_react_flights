@@ -2,37 +2,46 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-block {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px;
+  border: 1px solid black;
 }
 
-.App-link {
-  color: #61dafb;
+.flights-board-container {
+  flex-basis: 75%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flights-timetable-container {
+  flex-basis: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-left: none;
+  max-height: 800px;
+  overflow-y: auto;
+}
+
+.filter-slider-container {
+  flex-basis: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-top: none;
+}
+
+.list-of-flights {
+  text-align: left;
+}
+
+.diagram-component {
+  width: 100%;
+  height: 100%;
+  border: solid 1px black;
+  background-color: white;
 }
