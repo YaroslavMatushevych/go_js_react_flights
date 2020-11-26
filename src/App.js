@@ -23,7 +23,7 @@ function App() {
   useEffect(() => {
     const fetchFlights = async () => {
       setLoading(true);
-      await axios.get(`http://api.aviationstack.com/v1/flights?access_key=3c777ddf537775365d3640b00cf52395&limit=${state.limitCommited}&flight_status=scheduled`)
+      await axios.get(`http://api.aviationstack.com/v1/flights?access_key=998e5a4a99bc0905481195a2d92ba876&limit=${state.limitCommited}&flight_status=scheduled`)
         .then(res => {
           const flightsData = res.data.data;
           let linkDataArray = [];
@@ -91,7 +91,7 @@ function App() {
     <div className="App">
       <main className="main-block">
         <div className="flights-board-container">
-          {!loading ?
+          {loading ?
             <CircularProgress
               size="45px"
               color="primary"
